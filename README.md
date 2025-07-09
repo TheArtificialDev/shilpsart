@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Shilps Art
+
+This is a modern [Next.js](https://nextjs.org) project built with TypeScript and Tailwind CSS, using the App Router architecture.
+
+## Tech Stack
+
+- **Framework**: Next.js 15.3.5 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS 4.0
+- **Linting**: ESLint with Next.js configuration
+- **Package Manager**: npm
 
 ## Getting Started
 
@@ -6,17 +16,29 @@ First, run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
+
+## Project Structure
+
+```
+src/
+├── app/           # App Router pages and layouts
+│   ├── layout.tsx # Root layout component
+│   ├── page.tsx   # Home page
+│   └── globals.css # Global styles and Tailwind imports
+└── components/    # Reusable React components (create as needed)
+```
+
+## Available Scripts
+
+- `npm run dev` - Start development server with Turbopack
+- `npm run build` - Build the application for production
+- `npm run start` - Start the production server
+- `npm run lint` - Run ESLint to check code quality
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
