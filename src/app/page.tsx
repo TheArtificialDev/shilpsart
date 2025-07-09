@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -19,7 +18,7 @@ export default function Home() {
         <div className="absolute bottom-32 left-1/4 text-5xl sparkle-effect">🌈</div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight font-fredoka">
             <span className="block bg-gradient-to-r from-yellow-300 via-pink-300 to-blue-300 bg-clip-text text-transparent">
               Bring Your 
             </span>
@@ -28,7 +27,7 @@ export default function Home() {
             </span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-4xl mx-auto leading-relaxed font-poppins">
             🌟 Art classes that honor your unique voice and help you express your creativity with confidence! 
             Join our magical artistic journey where every stroke tells your story.
           </p>
@@ -54,20 +53,20 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
             <div className="text-white sparkle-effect pulse-1">
-              <h3 className="text-3xl font-bold mb-2">20+</h3>
-              <p className="text-white/95 font-medium">✨ Years Teaching Magic</p>
+              <h3 className="text-3xl font-bold mb-2 font-fredoka">20+</h3>
+              <p className="text-white/95 font-medium font-poppins">✨ Years Teaching Magic</p>
             </div>
             <div className="text-white sparkle-effect pulse-2">
-              <h3 className="text-3xl font-bold mb-2">1-on-1</h3>
-              <p className="text-white/95 font-medium">🎯 Personal Attention</p>
+              <h3 className="text-3xl font-bold mb-2 font-fredoka">1-on-1</h3>
+              <p className="text-white/95 font-medium font-poppins">🎯 Personal Attention</p>
             </div>
             <div className="text-white sparkle-effect pulse-3">
-              <h3 className="text-3xl font-bold mb-2">Real-time</h3>
-              <p className="text-white/95 font-medium">⚡ Instant Feedback</p>
+              <h3 className="text-3xl font-bold mb-2 font-fredoka">Real-time</h3>
+              <p className="text-white/95 font-medium font-poppins">⚡ Instant Feedback</p>
             </div>
             <div className="text-white sparkle-effect pulse-4">
-              <h3 className="text-3xl font-bold mb-2">Specialty</h3>
-              <p className="text-white/95 font-medium">🌈 All Art Styles</p>
+              <h3 className="text-3xl font-bold mb-2 font-fredoka">Specialty</h3>
+              <p className="text-white/95 font-medium font-poppins">🌈 All Art Styles</p>
             </div>
           </div>
         </div>
@@ -79,7 +78,7 @@ export default function Home() {
       {/* Features Section with High-Impact Colors */}
       <section className="py-20 bg-gradient-to-b from-white to-yellow-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl md:text-6xl font-bold text-center mb-16">
+          <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 font-fredoka">
             <span className="bg-gradient-to-r from-emerald-500 via-blue-500 to-purple-500 bg-clip-text text-transparent">
               ✨ Why Choose Shilps Art? ✨
             </span>
@@ -90,24 +89,24 @@ export default function Home() {
               <div className="w-32 h-32 mx-auto mb-8 bg-gradient-to-br from-coral-400 to-pink-500 rounded-full flex items-center justify-center text-6xl sparkle-effect bounce-3d">
                 �
               </div>
-              <h3 className="text-2xl font-bold text-charcoal mb-4">Personal Vision Focus</h3>
-              <p className="text-charcoal text-lg">We don't create cookie-cutter artists. Discover YOUR unique creative voice! 🌟</p>
+              <h3 className="text-2xl font-bold text-charcoal mb-4 font-fredoka">Personal Vision Focus</h3>
+              <p className="text-charcoal text-lg font-poppins">We don&apos;t create cookie-cutter artists. Discover YOUR unique creative voice! 🌟</p>
             </div>
             
             <div className="text-center group transform hover:scale-105 transition-all duration-300">
               <div className="w-32 h-32 mx-auto mb-8 bg-gradient-to-br from-emerald-400 to-blue-500 rounded-full flex items-center justify-center text-6xl sparkle-effect color-explosion">
                 👩‍🎨
               </div>
-              <h3 className="text-2xl font-bold text-charcoal mb-4">Expert Guidance</h3>
-              <p className="text-charcoal text-lg">20 years of teaching wisdom meets artistic intuition for amazing results! 🚀</p>
+              <h3 className="text-2xl font-bold text-charcoal mb-4 font-fredoka">Expert Guidance</h3>
+              <p className="text-charcoal text-lg font-poppins">20 years of teaching wisdom meets artistic intuition for amazing results! 🚀</p>
             </div>
             
             <div className="text-center group transform hover:scale-105 transition-all duration-300">
               <div className="w-32 h-32 mx-auto mb-8 bg-gradient-to-br from-purple-400 to-yellow-500 rounded-full flex items-center justify-center text-6xl sparkle-effect bounce-3d">
                 🎨
               </div>
-              <h3 className="text-2xl font-bold text-charcoal mb-4">Mind to Canvas</h3>
-              <p className="text-charcoal text-lg">Learn to translate what you see in your mind's eye into beautiful reality! ✨</p>
+              <h3 className="text-2xl font-bold text-charcoal mb-4 font-fredoka">Mind to Canvas</h3>
+              <p className="text-charcoal text-lg font-poppins">Learn to translate what you see in your mind&apos;s eye into beautiful reality! ✨</p>
             </div>
           </div>
         </div>
@@ -120,12 +119,12 @@ export default function Home() {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 sparkle-effect">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 sparkle-effect font-fredoka">
               <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
                 🌈 Amazing Transformations! 🌈
               </span>
             </h2>
-            <p className="text-xl text-charcoal max-w-3xl mx-auto">
+            <p className="text-xl text-charcoal max-w-3xl mx-auto font-poppins">
               Watch students discover their incredible artistic potential and create magic! ✨
             </p>
           </div>
@@ -142,8 +141,8 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="p-6 bg-white">
-                  <p className="text-charcoal italic font-medium">"This transformation changed my life! I never knew I could create such beauty!" 💫</p>
-                  <p className="text-purple-600 font-bold mt-2">- Happy Student ⭐</p>
+                  <p className="text-charcoal italic font-medium font-caveat text-lg">&quot;This transformation changed my life! I never knew I could create such beauty!&quot; 💫</p>
+                  <p className="text-purple-600 font-bold mt-2 font-poppins">- Happy Student ⭐</p>
                 </div>
               </div>
             ))}
@@ -172,12 +171,12 @@ export default function Home() {
         <div className="absolute top-10 right-10 text-4xl md:text-6xl transform scale-x-[-1]">🌈</div>
         
         <div className="relative max-w-5xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-8 sparkle-effect leading-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-8 sparkle-effect leading-tight font-fredoka">
             🌈 Ready to Create Magic? 🌈
           </h2>
           
-          <p className="text-lg md:text-xl lg:text-2xl text-white/95 mb-12 leading-relaxed">
-            Join thousands of students who've discovered their artistic superpowers with Shilps Art! ✨
+          <p className="text-lg md:text-xl lg:text-2xl text-white/95 mb-12 leading-relaxed font-poppins">
+            Join thousands of students who&apos;ve discovered their artistic superpowers with Shilps Art! ✨
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
