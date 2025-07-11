@@ -113,6 +113,21 @@ body {
   }
 }
 
+/* Enhanced Button Gradient Animations */
+@keyframes gradientPulse {
+  0%, 100% { 
+    background-position: 0% 50%;
+  }
+  50% { 
+    background-position: 100% 50%;
+  }
+}
+
+.gradient-button {
+  background-size: 200% 200%;
+  animation: gradientPulse 3s ease infinite;
+}
+
 /* Utility Classes for High-Impact Effects */
 .color-explosion {
   animation: colorExplosion 2s ease-in-out infinite;
@@ -192,7 +207,14 @@ body {
 }
 
 .gradient-overlay {
-  background: linear-gradient(to bottom, transparent 0%, rgba(255,255,255,0.1) 50%, transparent 100%);
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: scale(0.95);
+}
+
+.group:hover .gradient-overlay {
+  opacity: 1;
+  transform: scale(1.05);
 }
 
 /* Enhanced responsive text sizing */
@@ -214,4 +236,15 @@ body {
   background: linear-gradient(to top, 
     rgba(139, 92, 246, 0.3) 0%, 
     transparent 100%);
+}
+
+/* Sticky Background and Backdrop Blur Utilities */
+.backdrop-blur-sm {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
 }

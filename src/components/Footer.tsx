@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export default function Footer() {
   return (
-    <footer className="bg-gradient-to-br from-gray-800 via-purple-900 to-emerald-900 text-white py-12">
+    <footer className="relative z-20 bg-gradient-to-br from-gray-800 via-purple-900 to-emerald-900 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
@@ -28,6 +28,7 @@ export default function Footer() {
               <li><Link href="/contact" className="hover:text-yellow-300 transition-colors font-poppins">📞 Contact</Link></li>
               <li><Link href="/faqs" className="hover:text-pink-300 transition-colors font-poppins">❓ FAQs</Link></li>
               <li><Link href="/resources" className="hover:text-blue-300 transition-colors font-poppins">📚 Student Resources</Link></li>
+              <li><Link href="/blog" className="hover:text-coral-300 transition-colors font-poppins">📝 Art Blog</Link></li>
             </ul>
           </div>
           <div>
