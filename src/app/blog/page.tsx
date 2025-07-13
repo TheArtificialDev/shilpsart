@@ -104,7 +104,7 @@ export default function BlogPage() {
               📝 Art & Creativity Blog
             </span>
           </h1>
-          <p className="text-xl md:text-2xl text-charcoal/80 max-w-3xl mx-auto font-poppins">
+          <p className="text-xl md:text-2xl text-charcoal max-w-3xl mx-auto font-poppins">
             Inspiration, tutorials, and insights to fuel your artistic journey! ✨
           </p>
         </div>
@@ -132,12 +132,12 @@ export default function BlogPage() {
           <h2 className="text-3xl font-bold mb-4 text-emerald-600 font-fredoka">
             🎨 Finding Your Unique Artistic Voice
           </h2>
-          <p className="text-charcoal/80 mb-6 font-poppins leading-relaxed">
-            One of the most common questions I hear from students is: "How do I develop my own style?" This is such a beautiful question because it shows you're thinking beyond just copying techniques - you want to create something authentically yours. In this post, I'll share the journey of discovering your unique artistic voice and why it's the most rewarding part of being an artist.
+          <p className="text-charcoal mb-6 font-poppins leading-relaxed">
+            One of the most common questions I hear from students is: &quot;How do I develop my own style?&quot; This is such a beautiful question because it shows you&apos;re thinking beyond just copying techniques - you want to create something authentically yours. In this post, I&apos;ll share the journey of discovering your unique artistic voice and why it&apos;s the most rewarding part of being an artist.
           </p>
           <div className="flex flex-wrap items-center gap-4 mb-6">
-            <span className="text-sm text-charcoal/70 font-poppins">📅 January 15, 2025</span>
-            <span className="text-sm text-charcoal/70 font-poppins">⏱️ 5 min read</span>
+            <span className="text-sm text-charcoal font-poppins">📅 January 15, 2025</span>
+            <span className="text-sm text-charcoal font-poppins">⏱️ 5 min read</span>
             <span className="bg-coral-200 text-coral-800 px-3 py-1 rounded-full text-sm font-bold font-poppins">
               Inspiration
             </span>
@@ -160,12 +160,12 @@ export default function BlogPage() {
               <h3 className="text-xl font-bold mb-3 text-charcoal font-fredoka">
                 {post.title}
               </h3>
-              <p className="text-charcoal/80 mb-4 font-poppins leading-relaxed">
+              <p className="text-charcoal mb-4 font-poppins leading-relaxed">
                 {post.excerpt}
               </p>
               <div className="flex flex-wrap items-center gap-2 mb-4">
-                <span className="text-sm text-charcoal/70 font-poppins">📅 {post.date}</span>
-                <span className="text-sm text-charcoal/70 font-poppins">⏱️ {post.readTime}</span>
+                <span className="text-sm text-charcoal font-poppins">📅 {post.date}</span>
+                <span className="text-sm text-charcoal font-poppins">⏱️ {post.readTime}</span>
               </div>
               <div className="flex items-center justify-between">
                 <span className="bg-purple-200 text-purple-800 px-3 py-1 rounded-full text-sm font-bold font-poppins">
@@ -207,7 +207,7 @@ export default function BlogPage() {
           <div className="bg-white/40 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-white/20 text-center">
             <div className="text-4xl mb-4">🎓</div>
             <h3 className="text-xl font-bold mb-3 text-emerald-600 font-fredoka">Tutorials</h3>
-            <p className="text-charcoal/80 mb-4 font-poppins">
+            <p className="text-charcoal mb-4 font-poppins">
               Step-by-step guides to master new techniques and improve your skills.
             </p>
             <a 
@@ -221,7 +221,7 @@ export default function BlogPage() {
           <div className="bg-white/40 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-white/20 text-center">
             <div className="text-4xl mb-4">🌟</div>
             <h3 className="text-xl font-bold mb-3 text-purple-600 font-fredoka">Student Stories</h3>
-            <p className="text-charcoal/80 mb-4 font-poppins">
+            <p className="text-charcoal mb-4 font-poppins">
               Real transformations and inspiring journeys from fellow artists.
             </p>
             <a 
@@ -235,7 +235,7 @@ export default function BlogPage() {
           <div className="bg-white/40 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-white/20 text-center">
             <div className="text-4xl mb-4">💡</div>
             <h3 className="text-xl font-bold mb-3 text-coral-600 font-fredoka">Art Tips</h3>
-            <p className="text-charcoal/80 mb-4 font-poppins">
+            <p className="text-charcoal mb-4 font-poppins">
               Practical advice and insights to improve your artistic practice.
             </p>
             <a 

@@ -17,11 +17,11 @@ export default function ContactPage() {
         <div className="text-center mb-16">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 font-fredoka">
             <span className="bg-gradient-to-r from-yellow-300 via-pink-300 to-blue-300 bg-clip-text text-transparent">
-              💬 Let's Connect!
+              💬 Let&apos;s Connect!
             </span>
           </h1>
-          <p className="text-xl md:text-2xl text-charcoal/80 max-w-3xl mx-auto font-poppins">
-            Ready to start your artistic journey? I'd love to hear about your creative goals and help you find the perfect path forward! ✨
+          <p className="text-xl md:text-2xl text-charcoal max-w-3xl mx-auto font-poppins">
+            Ready to start your artistic journey? I&apos;d love to hear about your creative goals and help you find the perfect path forward! ✨
           </p>
         </div>
 
@@ -32,8 +32,8 @@ export default function ContactPage() {
             <div className="text-center">
               <div className="text-6xl mb-4">📞</div>
               <h3 className="text-2xl font-bold mb-4 text-emerald-600 font-fredoka">Call or Text</h3>
-              <p className="text-charcoal/80 mb-6 font-poppins">
-                Ready to chat about your artistic goals? Give me a call or send a text - I'd love to hear from you!
+              <p className="text-charcoal mb-6 font-poppins">
+                Ready to chat about your artistic goals? Give me a call or send a text - I&apos;d love to hear from you!
               </p>
               <a 
                 href="tel:8884750750"
@@ -48,8 +48,8 @@ export default function ContactPage() {
             <div className="text-center">
               <div className="text-6xl mb-4">💬</div>
               <h3 className="text-2xl font-bold mb-4 text-purple-600 font-fredoka">WhatsApp Chat</h3>
-              <p className="text-charcoal/80 mb-6 font-poppins">
-                Prefer to chat? Send me a message on WhatsApp and I'll get back to you as soon as possible!
+              <p className="text-charcoal mb-6 font-poppins">
+                Prefer to chat? Send me a message on WhatsApp and I&apos;ll get back to you as soon as possible!
               </p>
               <a 
                 href="https://wa.me/918884750750?text=Hi%20Shilps!%20I'm%20interested%20in%20learning%20about%20your%20art%20classes.%20Can%20we%20chat?"
@@ -72,21 +72,21 @@ export default function ContactPage() {
             <div className="text-center">
               <div className="text-4xl mb-4">🎯</div>
               <h3 className="text-xl font-bold mb-3 text-emerald-600 font-fredoka">Personalized Guidance</h3>
-              <p className="text-charcoal/80 font-poppins">
+              <p className="text-charcoal font-poppins">
                 Get tailored advice about your artistic journey and find the perfect learning path for your goals.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">💡</div>
               <h3 className="text-xl font-bold mb-3 text-purple-600 font-fredoka">Expert Insights</h3>
-              <p className="text-charcoal/80 font-poppins">
+              <p className="text-charcoal font-poppins">
                 Benefit from 20+ years of teaching experience and 15+ years of artistic practice.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">🤝</div>
               <h3 className="text-xl font-bold mb-3 text-coral-600 font-fredoka">No Pressure</h3>
-              <p className="text-charcoal/80 font-poppins">
+              <p className="text-charcoal font-poppins">
                 Just a friendly chat about your artistic dreams - no sales pressure, just genuine guidance.
               </p>
             </div>
@@ -101,20 +101,20 @@ export default function ContactPage() {
           <div className="space-y-6">
             <div className="border-b border-white/20 pb-4">
               <h3 className="text-lg font-bold text-emerald-600 mb-2 font-fredoka">🕐 When can I reach you?</h3>
-              <p className="text-charcoal/80 font-poppins">
-                I'm typically available Monday through Saturday, 9 AM to 7 PM. If you call outside these hours, feel free to leave a message and I'll get back to you soon!
+              <p className="text-charcoal font-poppins">
+                I&apos;m typically available Monday through Saturday, 9 AM to 7 PM. If you call outside these hours, feel free to leave a message and I&apos;ll get back to you soon!
               </p>
             </div>
             <div className="border-b border-white/20 pb-4">
               <h3 className="text-lg font-bold text-purple-600 mb-2 font-fredoka">🎨 What should I expect from our first chat?</h3>
-              <p className="text-charcoal/80 font-poppins">
-                We'll talk about your artistic goals, current experience level, and what you hope to achieve. I'll help you understand which learning path would work best for you.
+              <p className="text-charcoal font-poppins">
+                We&apos;ll talk about your artistic goals, current experience level, and what you hope to achieve. I&apos;ll help you understand which learning path would work best for you.
               </p>
             </div>
             <div>
               <h3 className="text-lg font-bold text-coral-600 mb-2 font-fredoka">📅 How do I schedule lessons?</h3>
-              <p className="text-charcoal/80 font-poppins">
-                After our initial chat, we'll discuss scheduling that works for both of us. I offer flexible timing to accommodate your schedule.
+              <p className="text-charcoal font-poppins">
+                After our initial chat, we&apos;ll discuss scheduling that works for both of us. I offer flexible timing to accommodate your schedule.
               </p>
             </div>
           </div>
@@ -125,7 +125,7 @@ export default function ContactPage() {
           <div className="bg-gradient-to-r from-emerald-500 to-purple-500 rounded-xl p-8 text-white mb-8">
             <h2 className="text-3xl font-bold mb-4 font-fredoka">🚀 Ready to Start Your Artistic Journey?</h2>
             <p className="text-xl mb-6 font-poppins">
-              Don't wait - your creative breakthrough is just a conversation away! ✨
+              Don&apos;t wait - your creative breakthrough is just a conversation away! ✨
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 

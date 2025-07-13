@@ -29,7 +29,7 @@ export default function LearningPathPage() {
             </p>
             
             <div className="flex justify-center">
-              <a href="https://wa.me/918884750750" className="group relative px-12 py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl sparkle-effect color-explosion">
+              <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I%20found%20you%20through%20your%20website.%20I%20would%20like%20to%20find%20out%20what%20level%20would%20be%20best%20for%20me%20to%20start%20learning%20art.%20Can%20you%20help%20me%20assess%20my%20current%20level?" className="group relative px-12 py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl sparkle-effect color-explosion">
                 <span className="relative z-10">📱 Find Your Level</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </a>
@@ -60,14 +60,10 @@ export default function LearningPathPage() {
                     🌱
                   </div>
                   <h3 className="text-2xl font-bold text-charcoal mb-2 font-fredoka">Level 1: Discover Your Creative Voice</h3>
-                  <p className="text-charcoal/80 font-poppins">Perfect for complete beginners</p>
+                  <p className="text-charcoal font-poppins">Perfect for complete beginners</p>
                 </div>
                 
                 <div className="space-y-4 mb-6">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-coral-500 rounded-full"></div>
-                    <span className="text-charcoal">8-12 personalized sessions</span>
-                  </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-coral-500 rounded-full"></div>
                     <span className="text-charcoal">Basic techniques & confidence building</span>
@@ -83,8 +79,8 @@ export default function LearningPathPage() {
                 </div>
                 
                 <div className="bg-gradient-to-r from-coral-100 to-pink-100 rounded-lg p-4 mb-6">
-                  <h4 className="font-bold text-charcoal mb-2">What You'll Learn:</h4>
-                  <ul className="text-sm text-charcoal/80 space-y-1">
+                  <h4 className="font-bold text-charcoal mb-2">What You&apos;ll Learn:</h4>
+                  <ul className="text-sm text-charcoal space-y-1">
                     <li>• Brush handling and material introduction</li>
                     <li>• Color theory basics</li>
                     <li>• Building artistic confidence</li>
@@ -92,7 +88,7 @@ export default function LearningPathPage() {
                   </ul>
                 </div>
                 
-                <a href="https://wa.me/918884750750" className="group relative w-full px-6 py-3 bg-gradient-to-r from-coral-500 to-pink-500 hover:from-coral-600 hover:to-pink-600 text-white font-bold rounded-full transform hover:scale-105 transition-all duration-300 shadow-lg block text-center">
+                <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I'm%20interested%20in%20Level%201%20-%20Discover%20Your%20Creative%20Voice.%20I'm%20a%20complete%20beginner%20and%20would%20love%20to%20start%20my%20artistic%20journey%20with%20your%20guidance.%20When%20can%20we%20begin?" className="group relative w-full px-6 py-3 bg-gradient-to-r from-coral-500 to-pink-500 hover:from-coral-600 hover:to-pink-600 text-white font-bold rounded-full transform hover:scale-105 transition-all duration-300 shadow-lg block text-center">
                   <span className="relative z-10">🌱 Start Your Discovery</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-coral-400 to-pink-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </a>
@@ -105,17 +101,13 @@ export default function LearningPathPage() {
                     🎨
                   </div>
                   <h3 className="text-2xl font-bold text-charcoal mb-2 font-fredoka">Level 2: Develop Your Artistic Confidence</h3>
-                  <p className="text-charcoal/80 font-poppins">For those with basic drawing knowledge</p>
+                  <p className="text-charcoal font-poppins">For those with basic drawing knowledge</p>
                   <div className="inline-block bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-medium mt-2">
                     Most Popular
                   </div>
                 </div>
                 
                 <div className="space-y-4 mb-6">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
-                    <span className="text-charcoal">10-15 intensive sessions</span>
-                  </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
                     <span className="text-charcoal">Technique refinement & style development</span>
@@ -131,8 +123,8 @@ export default function LearningPathPage() {
                 </div>
                 
                 <div className="bg-gradient-to-r from-emerald-100 to-blue-100 rounded-lg p-4 mb-6">
-                  <h4 className="font-bold text-charcoal mb-2">What You'll Master:</h4>
-                  <ul className="text-sm text-charcoal/80 space-y-1">
+                  <h4 className="font-bold text-charcoal mb-2">What You&apos;ll Master:</h4>
+                  <ul className="text-sm text-charcoal space-y-1">
                     <li>• Advanced color theory & mixing</li>
                     <li>• Texture and depth techniques</li>
                     <li>• Personal style exploration</li>
@@ -140,7 +132,7 @@ export default function LearningPathPage() {
                   </ul>
                 </div>
                 
-                <a href="https://wa.me/918884750750" className="group relative w-full px-6 py-3 bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-600 hover:to-blue-600 text-white font-bold rounded-full transform hover:scale-105 transition-all duration-300 shadow-lg block text-center">
+                <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I'm%20interested%20in%20Level%202%20-%20Develop%20Your%20Artistic%20Confidence.%20I%20have%20some%20basic%20drawing%20knowledge%20and%20want%20to%20improve%20my%20techniques%20and%20develop%20my%20style.%20Can%20we%20discuss%20this%20program?" className="group relative w-full px-6 py-3 bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-600 hover:to-blue-600 text-white font-bold rounded-full transform hover:scale-105 transition-all duration-300 shadow-lg block text-center">
                   <span className="relative z-10">🎨 Build Your Confidence</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-emerald-400 to-blue-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </a>
@@ -153,14 +145,10 @@ export default function LearningPathPage() {
                     🏆
                   </div>
                   <h3 className="text-2xl font-bold text-charcoal mb-2 font-fredoka">Level 3: Master Your Expressive Freedom</h3>
-                  <p className="text-charcoal/80 font-poppins">Ready to perfect your craft</p>
+                  <p className="text-charcoal font-poppins">Ready to perfect your craft</p>
                 </div>
                 
                 <div className="space-y-4 mb-6">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                    <span className="text-charcoal">12-20 mastery sessions</span>
-                  </div>
                   <div className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
                     <span className="text-charcoal">Advanced pastels & oil techniques</span>
@@ -176,8 +164,8 @@ export default function LearningPathPage() {
                 </div>
                 
                 <div className="bg-gradient-to-r from-purple-100 to-yellow-100 rounded-lg p-4 mb-6">
-                  <h4 className="font-bold text-charcoal mb-2">What You'll Achieve:</h4>
-                  <ul className="text-sm text-charcoal/80 space-y-1">
+                  <h4 className="font-bold text-charcoal mb-2">What You&apos;ll Achieve:</h4>
+                  <ul className="text-sm text-charcoal space-y-1">
                     <li>• Professional-level techniques</li>
                     <li>• Creative problem-solving skills</li>
                     <li>• Portfolio-ready artwork</li>
@@ -185,7 +173,7 @@ export default function LearningPathPage() {
                   </ul>
                 </div>
                 
-                <a href="https://wa.me/918884750750" className="group relative w-full px-6 py-3 bg-gradient-to-r from-purple-500 to-yellow-500 hover:from-purple-600 hover:to-yellow-600 text-white font-bold rounded-full transform hover:scale-105 transition-all duration-300 shadow-lg block text-center">
+                <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I'm%20ready%20for%20Level%203%20-%20Master%20Your%20Expressive%20Freedom.%20I%20want%20to%20perfect%20my%20craft%20with%20advanced%20techniques%20and%20develop%20a%20professional%20portfolio.%20Can%20we%20start%20this%20advanced%20program?" className="group relative w-full px-6 py-3 bg-gradient-to-r from-purple-500 to-yellow-500 hover:from-purple-600 hover:to-yellow-600 text-white font-bold rounded-full transform hover:scale-105 transition-all duration-300 shadow-lg block text-center">
                   <span className="relative z-10">🏆 Master Your Craft</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-yellow-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </a>
@@ -217,7 +205,7 @@ export default function LearningPathPage() {
                 </div>
                 <h3 className="text-xl font-bold text-charcoal mb-3 font-fredoka">📋 Assessment</h3>
                 <p className="text-charcoal text-sm leading-relaxed font-poppins">
-                  We'll understand your current level, artistic goals, and creative aspirations
+                  We&apos;ll understand your current level, artistic goals, and creative aspirations
                 </p>
               </div>
               
@@ -265,11 +253,11 @@ export default function LearningPathPage() {
                 </h2>
                 
                 <p className="text-lg md:text-xl lg:text-2xl text-charcoal/90 mb-12 leading-relaxed font-poppins">
-                  Let's discover your perfect starting point and create your personalized learning path! ✨
+                  Let&apos;s discover your perfect starting point and create your personalized learning path! ✨
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                  <a href="https://wa.me/918884750750" className="group relative px-8 md:px-12 py-4 md:py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-lg md:text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion">
+                  <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I%20found%20you%20through%20your%20website.%20I%20would%20like%20to%20begin%20my%20assessment%20to%20find%20out%20which%20level%20is%20right%20for%20me.%20Can%20you%20help%20me%20get%20started%20with%20my%20personalized%20learning%20path?" className="group relative px-8 md:px-12 py-4 md:py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-lg md:text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion">
                     <span className="relative z-10">📱 Begin Your Assessment</span>
                     <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </a>

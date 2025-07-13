@@ -50,7 +50,7 @@ export default function StartJourneyPage() {
                 {/* Question 1 */}
                 <div className="space-y-4">
                   <h3 className="text-xl font-bold text-charcoal font-fredoka">
-                    1. What's your current experience with fine arts? 🎨
+                    1. What&apos;s your current experience with fine arts? 🎨
                   </h3>
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <label className="flex items-center space-x-3 p-4 bg-white/50 rounded-lg cursor-pointer hover:bg-white/70 transition-all duration-300">
@@ -71,7 +71,7 @@ export default function StartJourneyPage() {
                 {/* Question 2 */}
                 <div className="space-y-4">
                   <h3 className="text-xl font-bold text-charcoal font-fredoka">
-                    2. What's your main artistic goal? 🌟
+                    2. What&apos;s your main artistic goal? 🌟
                   </h3>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <label className="flex items-center space-x-3 p-4 bg-white/50 rounded-lg cursor-pointer hover:bg-white/70 transition-all duration-300">
@@ -170,7 +170,7 @@ export default function StartJourneyPage() {
               {/* What's Included */}
               <div className="bg-white/50 backdrop-blur-sm rounded-xl p-8 transform hover:scale-105 transition-all duration-300 sparkle-effect">
                 <h3 className="text-2xl font-bold text-charcoal mb-6 font-fredoka">
-                  📋 What's Included in Your Consultation
+                  📋 What&apos;s Included in Your Consultation
                 </h3>
                 <div className="space-y-4">
                   <div className="flex items-start space-x-4">
@@ -179,7 +179,7 @@ export default function StartJourneyPage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-charcoal">Personal Goals Discussion</h4>
-                      <p className="text-charcoal/80 text-sm">Understanding your artistic aspirations and current skill level</p>
+                      <p className="text-charcoal text-sm">Understanding your artistic aspirations and current skill level</p>
                     </div>
                   </div>
                   
@@ -189,7 +189,7 @@ export default function StartJourneyPage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-charcoal">Portfolio Review</h4>
-                      <p className="text-charcoal/80 text-sm">If you have existing artwork, we'll review it together (optional)</p>
+                      <p className="text-charcoal text-sm">If you have existing artwork, we&apos;ll review it together (optional)</p>
                     </div>
                   </div>
                   
@@ -199,7 +199,7 @@ export default function StartJourneyPage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-charcoal">Personalized Learning Plan</h4>
-                      <p className="text-charcoal/80 text-sm">Custom roadmap tailored to your specific needs and goals</p>
+                      <p className="text-charcoal text-sm">Custom roadmap tailored to your specific needs and goals</p>
                     </div>
                   </div>
                   
@@ -209,7 +209,7 @@ export default function StartJourneyPage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-charcoal">No Pressure Guidance</h4>
-                      <p className="text-charcoal/80 text-sm">Genuine advice about your artistic journey, regardless of enrollment</p>
+                      <p className="text-charcoal text-sm">Genuine advice about your artistic journey, regardless of enrollment</p>
                     </div>
                   </div>
                 </div>
@@ -218,15 +218,15 @@ export default function StartJourneyPage() {
               {/* Contact Information */}
               <div className="bg-white/50 backdrop-blur-sm rounded-xl p-8 transform hover:scale-105 transition-all duration-300 sparkle-effect">
                 <h3 className="text-2xl font-bold text-charcoal mb-6 font-fredoka">
-                  📞 Let's Connect
+                  📞 Let&apos;s Connect
                 </h3>
                 <div className="space-y-6">
                   <div className="text-center">
                     <div className="text-4xl mb-4">📱</div>
                     <h4 className="font-bold text-charcoal mb-2">WhatsApp (Preferred)</h4>
-                    <p className="text-charcoal/80 mb-4">Quick responses and easy scheduling</p>
+                    <p className="text-charcoal mb-4">Quick responses and easy scheduling</p>
                     <a 
-                      href="https://wa.me/918884750750" 
+                      href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I%20want%20to%20start%20my%20artistic%20journey%20and%20would%20like%20to%20schedule%20a%20consultation.%20When%20would%20be%20a%20good%20time%20to%20discuss%20my%20goals%20and%20get%20started?" 
                       className="group relative px-8 py-4 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold rounded-full transform hover:scale-105 transition-all duration-300 shadow-lg block"
                     >
                       <span className="relative z-10">📱 Chat on WhatsApp</span>
@@ -237,7 +237,7 @@ export default function StartJourneyPage() {
                   <div className="text-center pt-6 border-t border-charcoal/20">
                     <div className="text-4xl mb-4">☎️</div>
                     <h4 className="font-bold text-charcoal mb-2">Direct Call</h4>
-                    <p className="text-charcoal/80 mb-4">For immediate consultation</p>
+                    <p className="text-charcoal mb-4">For immediate consultation</p>
                     <a 
                       href="tel:+918884750750" 
                       className="group relative px-8 py-4 bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-bold rounded-full transform hover:scale-105 transition-all duration-300 shadow-lg block"
@@ -270,7 +270,7 @@ export default function StartJourneyPage() {
                 <div className="text-4xl mb-4">✅</div>
                 <h3 className="text-xl font-bold text-charcoal mb-3 font-fredoka">First Session Guarantee</h3>
                 <p className="text-charcoal text-sm leading-relaxed font-poppins">
-                  If you're not completely satisfied with your first session, we'll work together to make it right
+                  If you&apos;re not completely satisfied with your first session, we&apos;ll work together to make it right
                 </p>
               </div>
               
@@ -333,7 +333,7 @@ export default function StartJourneyPage() {
                   <h3 className="text-xl font-bold text-charcoal mb-3 font-fredoka">{faq.question}</h3>
                   <p className="text-charcoal leading-relaxed font-poppins">{faq.answer}</p>
                   <div className="mt-4 text-center">
-                    <a href="https://wa.me/918884750750" className="inline-block text-green-600 hover:text-green-700 font-medium font-poppins">
+                    <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I%20have%20some%20questions%20about%20your%20art%20classes%20and%20would%20love%20to%20get%20more%20details.%20Can%20you%20help%20me%20understand%20more%20about%20the%20programs?" className="inline-block text-green-600 hover:text-green-700 font-medium font-poppins">
                       📱 Ask me more →
                     </a>
                   </div>
@@ -354,11 +354,11 @@ export default function StartJourneyPage() {
                 </h2>
                 
                 <p className="text-lg md:text-xl lg:text-2xl text-charcoal/90 mb-12 leading-relaxed font-poppins">
-                  Join hundreds of students who've discovered their creative voice with personalized guidance ✨
+                  Join hundreds of students who&apos;ve discovered their creative voice with personalized guidance ✨
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                  <a href="https://wa.me/918884750750" className="group relative px-8 md:px-12 py-4 md:py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-lg md:text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion">
+                  <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I'm%20excited%20to%20start%20my%20artistic%20journey%20and%20would%20like%20to%20schedule%20a%20consultation%20to%20discuss%20my%20goals%20and%20find%20the%20perfect%20program%20for%20me.%20When%20can%20we%20connect?" className="group relative px-8 md:px-12 py-4 md:py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-lg md:text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion">
                     <span className="relative z-10">📱 Schedule Your Consultation</span>
                     <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </a>

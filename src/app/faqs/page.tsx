@@ -126,7 +126,7 @@ export default function FAQsPage() {
               ❓ Frequently Asked Questions
             </span>
           </h1>
-          <p className="text-xl md:text-2xl text-charcoal/80 max-w-3xl mx-auto font-poppins">
+          <p className="text-xl md:text-2xl text-charcoal max-w-3xl mx-auto font-poppins">
             Get answers to common questions about starting your artistic journey with personalized instruction! ✨
           </p>
         </div>
@@ -171,7 +171,7 @@ export default function FAQsPage() {
                 </button>
                 {openFAQ === index && (
                   <div className="px-6 pb-4 border-t border-white/20">
-                    <p className="text-charcoal/80 font-poppins leading-relaxed pt-4">
+                    <p className="text-charcoal font-poppins leading-relaxed pt-4">
                       {faq.answer}
                     </p>
                   </div>
@@ -186,7 +186,7 @@ export default function FAQsPage() {
           <div className="bg-gradient-to-r from-emerald-500 to-purple-500 rounded-xl p-8 text-white">
             <h2 className="text-3xl font-bold mb-4 font-fredoka">🤔 Still Have Questions?</h2>
             <p className="text-xl mb-6 font-poppins">
-              I'd love to chat with you personally about your artistic journey! ✨
+              I&apos;d love to chat with you personally about your artistic journey! ✨
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
@@ -212,7 +212,7 @@ export default function FAQsPage() {
           <div className="bg-white/40 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-white/20 text-center">
             <div className="text-4xl mb-4">🎯</div>
             <h3 className="text-xl font-bold mb-3 text-emerald-600 font-fredoka">Find Your Level</h3>
-            <p className="text-charcoal/80 mb-4 font-poppins">
+            <p className="text-charcoal mb-4 font-poppins">
               Discover which learning path is perfect for your current skill level and goals.
             </p>
             <a 
@@ -226,7 +226,7 @@ export default function FAQsPage() {
           <div className="bg-white/40 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-white/20 text-center">
             <div className="text-4xl mb-4">🖼️</div>
             <h3 className="text-xl font-bold mb-3 text-purple-600 font-fredoka">See Student Work</h3>
-            <p className="text-charcoal/80 mb-4 font-poppins">
+            <p className="text-charcoal mb-4 font-poppins">
               Get inspired by amazing transformations from students just like you.
             </p>
             <a 
@@ -240,7 +240,7 @@ export default function FAQsPage() {
           <div className="bg-white/40 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 border border-white/20 text-center">
             <div className="text-4xl mb-4">🚀</div>
             <h3 className="text-xl font-bold mb-3 text-coral-600 font-fredoka">Ready to Start?</h3>
-            <p className="text-charcoal/80 mb-4 font-poppins">
+            <p className="text-charcoal mb-4 font-poppins">
               Begin your artistic journey with a free consultation and personalized plan.
             </p>
             <a 

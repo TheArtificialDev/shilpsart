@@ -32,7 +32,7 @@ export default function Home() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I%20found%20your%20website%20and%20I'm%20inspired%20to%20start%20my%20artistic%20journey.%20Can%20you%20help%20me%20begin%20discovering%20my%20creative%20potential?" className="group relative px-12 py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl sparkle-effect color-explosion">
+            <a href="https://wa.me/918884750750" className="group relative px-12 py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl sparkle-effect color-explosion">
               <span className="relative z-10">📱 Reach Out on WhatsApp</span>
               <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </a>
@@ -77,9 +77,8 @@ export default function Home() {
             <div className="bg-white/40 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-white/20">
               <h2 className="text-4xl md:text-6xl font-bold text-center mb-16 font-fredoka">
                 <span className="bg-gradient-to-r from-emerald-500 via-blue-500 to-purple-500 bg-clip-text text-transparent">
-                  Why Choose Shilp&apos;s Art?
+                  🎨 Why Choose Shilp&apos;s Art? 🖼️
                 </span>
-                <span className="ml-2">🎨🖼️</span>
               </h2>
               
               <div className="grid md:grid-cols-3 gap-12">
@@ -111,19 +110,18 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Teaching Sessions Gallery */}
+        {/* Student Artwork Gallery */}
         <section className="py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="bg-white/40 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-white/20">
               <div className="text-center mb-16">
                 <h2 className="text-4xl md:text-5xl font-bold mb-4 sparkle-effect font-fredoka">
                   <span className="bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-                    Live Teaching Sessions!
+                    🌈 Amazing Student Artwork! 🌈
                   </span>
-                  <span className="ml-2">👩‍🏫📚</span>
                 </h2>
                 <p className="text-xl text-charcoal max-w-3xl mx-auto font-poppins">
-                  Experience the magic of personalized instruction and see students discovering their artistic potential! 🎨
+                  Discover the incredible artistic achievements of our students! 🎭
                 </p>
               </div>
               
@@ -132,101 +130,29 @@ export default function Home() {
                   <div key={item} className="bg-white rounded-xl shadow-2xl overflow-hidden transform hover:scale-105 transition-all duration-300 sparkle-effect">
                     <div className="aspect-[4/3] relative overflow-hidden">
                       <Image
-                        src={`/images/student-paintings/${item}.jpeg`}
-                        alt={`Teaching session ${item} - Shilp's Art class`}
+                        src={`/images/my-paintings/${(item % 15) + 1}.jpeg`}
+                        alt={`Artwork by Shilp #${item}`}
                         fill
                         className="object-cover group-hover:scale-110 transition-transform duration-300"
                       />
-                      <div className="absolute inset-0 bg-gradient-to-br from-emerald-300/30 to-blue-300/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                      <div className="absolute bottom-2 left-2 bg-emerald-500/90 text-white px-3 py-1 rounded-full text-xs font-bold">
-                        Live Session
+                      <div className="absolute inset-0 bg-gradient-to-br from-coral-300/30 to-purple-300/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                      <div className="absolute bottom-2 left-2 bg-white/90 px-2 py-1 rounded text-xs font-bold text-charcoal">
+                        Original Artwork
                       </div>
                     </div>
                     <div className="p-6 bg-white">
-                      <h4 className="text-lg font-bold text-charcoal mb-2 font-fredoka">
-                        {item === 1 && "🎯 One-on-One Guidance"}
-                        {item === 2 && "🖌️ Technique Mastery"}
-                        {item === 3 && "🌈 Color Theory in Action"}
-                        {item === 4 && "✨ Creative Breakthrough"}
-                        {item === 5 && "🎨 Personal Style Development"}
-                        {item === 6 && "💡 Vision to Reality"}
-                      </h4>
-                      <p className="text-gray-800 font-poppins text-sm font-medium">
-                        {item === 1 && "Personalized instruction tailored to each student's unique learning style and artistic goals."}
-                        {item === 2 && "Hands-on demonstration of professional techniques that bring immediate improvement."}
-                        {item === 3 && "Understanding color relationships and how to use them effectively in artwork."}
-                        {item === 4 && "The moment when students discover their unique creative voice and artistic confidence."}
-                        {item === 5 && "Helping students develop their individual artistic style and expression."}
-                        {item === 6 && "Transforming inner artistic vision into beautiful, tangible reality on canvas."}
-                      </p>
+                      <p className="text-charcoal italic font-medium font-caveat text-lg">&quot;This is the kind of artwork I aspire to create! Shilp&apos; guidance helps me work towards this level of mastery.&quot; 🎨</p>
+                      <p className="text-purple-600 font-bold mt-2 font-poppins">- Inspired Student 🖼️</p>
                     </div>
                   </div>
                 ))}
               </div>
               
               <div className="text-center mt-12">
-                <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I%20saw%20your%20teaching%20sessions%20on%20your%20website%20and%20I'm%20impressed%20by%20the%20results.%20I%20would%20love%20to%20join%20your%20live%20teaching%20sessions.%20Can%20we%20discuss%20the%20details?" className="group relative px-12 py-6 bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-600 hover:to-blue-600 text-white font-bold text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion">
-                  <span className="relative z-10">🚀 Join Our Sessions!</span>
-                  <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <a href="https://wa.me/918884750750" className="group relative px-12 py-6 bg-gradient-to-r from-yellow-400 to-orange-500 hover:from-yellow-500 hover:to-orange-600 text-white font-bold text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion">
+                  <span className="relative z-10">🚀 See Your Potential!</span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-pink-400 to-red-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </a>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Shilp's Original Artwork Gallery */}
-        <section className="py-20">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="bg-white/40 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-white/20">
-              <div className="text-center mb-16">
-                <h2 className="text-4xl md:text-5xl font-bold mb-4 sparkle-effect font-fredoka">
-                  <span className="ml-2">🎨🖼️</span>
-                  <span className="bg-gradient-to-r from-coral-500 via-yellow-500 to-purple-500 bg-clip-text text-transparent">
-                    Original Works by Shilp
-                  </span>
-                  <span className="ml-2">🎨🖼️</span>
-                </h2>
-                <p className="text-xl text-charcoal max-w-3xl mx-auto font-poppins">
-                  Explore the artistic mastery and creative vision that guides our teaching! These original pieces showcase the depth of skill and passion behind every lesson. ✨
-                </p>
-              </div>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                {[1, 2, 3, 4, 5, 6, 7, 8].map((item) => (
-                  <div key={item} className="bg-white rounded-xl shadow-xl overflow-hidden transform hover:scale-105 transition-all duration-300 sparkle-effect group">
-                    <div className="aspect-[3/4] relative overflow-hidden">
-                      <Image
-                        src={`/images/my-paintings/${item + 6}.jpeg`}
-                        alt={`Original artwork by Shilp - Piece ${item}`}
-                        fill
-                        className="object-cover group-hover:scale-110 transition-transform duration-300"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-br from-coral-300/20 to-purple-300/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                      <div className="absolute top-2 right-2 bg-gradient-to-r from-coral-500 to-pink-500 text-white px-2 py-1 rounded-full text-xs font-bold">
-                        Original
-                      </div>
-                    </div>
-                    <div className="p-4 bg-white">
-                      <p className="text-charcoal font-medium font-caveat text-center">
-                        {item === 1 && "🌺 Floral Mastery"}
-                        {item === 2 && "🌅 Landscape Poetry"}
-                        {item === 3 && "🎭 Portrait Elegance"}
-                        {item === 4 && "🌈 Abstract Expression"}
-                        {item === 5 && "🏛️ Architectural Beauty"}
-                        {item === 6 && "🍃 Nature's Symphony"}
-                        {item === 7 && "✨ Dreamy Impressions"}
-                        {item === 8 && "🎨 Creative Vision"}
-                      </p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              
-              <div className="text-center mt-12">
-                <Link href="/gallery" className="group relative px-12 py-6 bg-gradient-to-r from-coral-500 to-pink-500 hover:from-coral-600 hover:to-pink-600 text-white font-bold text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl bounce-3d">
-                  <span className="relative z-10">🖼️ View Full Gallery</span>
-                  <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                </Link>
               </div>
             </div>
           </div>
@@ -250,7 +176,7 @@ export default function Home() {
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                  <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I'm%20ready%20to%20start%20my%20artistic%20journey%20and%20transform%20my%20creative%20vision%20into%20reality.%20Can%20you%20guide%20me%20on%20how%20to%20begin?" className="group relative px-8 md:px-12 py-4 md:py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-lg md:text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion">
+                  <a href="https://wa.me/918884750750" className="group relative px-8 md:px-12 py-4 md:py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-lg md:text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion">
                     <span className="relative z-10">📱 Start Your Journey</span>
                     <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </a>

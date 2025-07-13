@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-yellow-300 to-pink-300 bg-clip-text text-transparent font-fredoka">
-              🎨 Shilps Art
+              🎨 Shilp&apos;s Art
             </h3>
             <p className="text-white/90 font-poppins">
               ✨ Personal fine arts instruction that honors your unique creative voice and brings your inner vision to life!
@@ -45,7 +45,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-white/20 mt-8 pt-8 text-center text-white/80">
-          <p className="font-poppins">&copy; 2025 Shilps Art. All rights reserved. Made with 💖 for artists everywhere! ✨</p>
+          <p className="font-poppins">&copy; 2025 Shilp&apos;s Art. All rights reserved. Made with 💖 for artists everywhere! ✨</p>
         </div>
       </div>
     </footer>

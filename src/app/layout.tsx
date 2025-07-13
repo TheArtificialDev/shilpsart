@@ -34,7 +34,7 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "Shilps Art - Bring Your Inner Vision to Life",
+  title: "Shilp's Art - Bring Your Inner Vision to Life",
   description: "Personal fine arts instruction that honors your unique creative voice. Learn to translate what you see in your mind's eye into beautiful reality.",
 };
 

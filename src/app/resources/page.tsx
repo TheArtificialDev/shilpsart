@@ -20,7 +20,7 @@ export default function StudentResourcesPage() {
               📚 Student Resources
             </span>
           </h1>
-          <p className="text-xl md:text-2xl text-charcoal/80 max-w-3xl mx-auto font-poppins">
+          <p className="text-xl md:text-2xl text-charcoal max-w-3xl mx-auto font-poppins">
             Everything you need to support your artistic journey - from materials guides to practice tips! ✨
           </p>
         </div>
@@ -34,28 +34,28 @@ export default function StudentResourcesPage() {
             <div className="text-center">
               <div className="text-4xl mb-4">📋</div>
               <h3 className="text-lg font-bold mb-2 text-emerald-600 font-fredoka">Step 1: Assessment</h3>
-              <p className="text-charcoal/80 font-poppins text-sm">
+              <p className="text-charcoal font-poppins text-sm">
                 Complete your skills assessment to find your perfect starting point.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">🎨</div>
               <h3 className="text-lg font-bold mb-2 text-purple-600 font-fredoka">Step 2: Materials</h3>
-              <p className="text-charcoal/80 font-poppins text-sm">
+              <p className="text-charcoal font-poppins text-sm">
                 Get your personalized materials list and set up your workspace.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">📅</div>
               <h3 className="text-lg font-bold mb-2 text-blue-600 font-fredoka">Step 3: Schedule</h3>
-              <p className="text-charcoal/80 font-poppins text-sm">
+              <p className="text-charcoal font-poppins text-sm">
                 Book your first lesson and establish a regular practice routine.
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">🌟</div>
               <h3 className="text-lg font-bold mb-2 text-coral-600 font-fredoka">Step 4: Create</h3>
-              <p className="text-charcoal/80 font-poppins text-sm">
+              <p className="text-charcoal font-poppins text-sm">
                 Start your artistic journey with personalized guidance and support.
               </p>
             </div>
@@ -72,7 +72,7 @@ export default function StudentResourcesPage() {
             <div className="space-y-3">
               <div className="border-b border-white/20 pb-2">
                 <h4 className="font-bold text-charcoal font-poppins">Pastels Starter Kit:</h4>
-                <ul className="text-charcoal/80 font-poppins text-sm space-y-1">
+                <ul className="text-charcoal font-poppins text-sm space-y-1">
                   <li>• 24-color soft pastel set</li>
                   <li>• Pastel paper pad (textured)</li>
                   <li>• Blending stumps</li>
@@ -81,7 +81,7 @@ export default function StudentResourcesPage() {
               </div>
               <div>
                 <h4 className="font-bold text-charcoal font-poppins">Oil Colors Starter Kit:</h4>
-                <ul className="text-charcoal/80 font-poppins text-sm space-y-1">
+                <ul className="text-charcoal font-poppins text-sm space-y-1">
                   <li>• Basic color set (6-8 colors)</li>
                   <li>• Canvas boards</li>
                   <li>• Brushes (flat & round)</li>
@@ -98,19 +98,19 @@ export default function StudentResourcesPage() {
             <div className="space-y-3">
               <div className="border-b border-white/20 pb-2">
                 <h4 className="font-bold text-charcoal font-poppins">Daily Practice:</h4>
-                <p className="text-charcoal/80 font-poppins text-sm">
+                <p className="text-charcoal font-poppins text-sm">
                   Even 15-20 minutes daily is more effective than long, infrequent sessions.
                 </p>
               </div>
               <div className="border-b border-white/20 pb-2">
                 <h4 className="font-bold text-charcoal font-poppins">Observation Skills:</h4>
-                <p className="text-charcoal/80 font-poppins text-sm">
+                <p className="text-charcoal font-poppins text-sm">
                   Practice looking at objects and breaking them down into shapes and colors.
                 </p>
               </div>
               <div>
                 <h4 className="font-bold text-charcoal font-poppins">Keep a Sketchbook:</h4>
-                <p className="text-charcoal/80 font-poppins text-sm">
+                <p className="text-charcoal font-poppins text-sm">
                   Document your progress and practice wherever you go.
                 </p>
               </div>
@@ -124,19 +124,19 @@ export default function StudentResourcesPage() {
             <div className="space-y-3">
               <div className="border-b border-white/20 pb-2">
                 <h4 className="font-bold text-charcoal font-poppins">Lighting:</h4>
-                <p className="text-charcoal/80 font-poppins text-sm">
+                <p className="text-charcoal font-poppins text-sm">
                   Natural light is best, or use a daylight lamp for consistent color viewing.
                 </p>
               </div>
               <div className="border-b border-white/20 pb-2">
                 <h4 className="font-bold text-charcoal font-poppins">Comfort:</h4>
-                <p className="text-charcoal/80 font-poppins text-sm">
+                <p className="text-charcoal font-poppins text-sm">
                   Set up at a comfortable height to avoid back strain during sessions.
                 </p>
               </div>
               <div>
                 <h4 className="font-bold text-charcoal font-poppins">Organization:</h4>
-                <p className="text-charcoal/80 font-poppins text-sm">
+                <p className="text-charcoal font-poppins text-sm">
                   Keep materials organized and easily accessible for smooth workflow.
                 </p>
               </div>
@@ -150,19 +150,19 @@ export default function StudentResourcesPage() {
             <div className="space-y-3">
               <div className="border-b border-white/20 pb-2">
                 <h4 className="font-bold text-charcoal font-poppins">Primary Colors:</h4>
-                <p className="text-charcoal/80 font-poppins text-sm">
+                <p className="text-charcoal font-poppins text-sm">
                   Red, Yellow, Blue - the foundation of all other colors.
                 </p>
               </div>
               <div className="border-b border-white/20 pb-2">
                 <h4 className="font-bold text-charcoal font-poppins">Color Temperature:</h4>
-                <p className="text-charcoal/80 font-poppins text-sm">
+                <p className="text-charcoal font-poppins text-sm">
                   Warm colors (reds, oranges) vs. cool colors (blues, greens).
                 </p>
               </div>
               <div>
                 <h4 className="font-bold text-charcoal font-poppins">Complementary Colors:</h4>
-                <p className="text-charcoal/80 font-poppins text-sm">
+                <p className="text-charcoal font-poppins text-sm">
                   Colors opposite on the color wheel create vibrant contrast.
                 </p>
               </div>
@@ -176,19 +176,19 @@ export default function StudentResourcesPage() {
             <div className="space-y-3">
               <div className="border-b border-white/20 pb-2">
                 <h4 className="font-bold text-charcoal font-poppins">Photo Journal:</h4>
-                <p className="text-charcoal/80 font-poppins text-sm">
+                <p className="text-charcoal font-poppins text-sm">
                   Take photos of your work in progress to see your improvement over time.
                 </p>
               </div>
               <div className="border-b border-white/20 pb-2">
                 <h4 className="font-bold text-charcoal font-poppins">Skill Checklist:</h4>
-                <p className="text-charcoal/80 font-poppins text-sm">
-                  Keep track of techniques you've learned and practiced.
+                <p className="text-charcoal font-poppins text-sm">
+                  Keep track of techniques you&apos;ve learned and practiced.
                 </p>
               </div>
               <div>
                 <h4 className="font-bold text-charcoal font-poppins">Goal Setting:</h4>
-                <p className="text-charcoal/80 font-poppins text-sm">
+                <p className="text-charcoal font-poppins text-sm">
                   Set monthly artistic goals and celebrate your achievements.
                 </p>
               </div>
@@ -202,19 +202,19 @@ export default function StudentResourcesPage() {
             <div className="space-y-3">
               <div className="border-b border-white/20 pb-2">
                 <h4 className="font-bold text-charcoal font-poppins">Nature Studies:</h4>
-                <p className="text-charcoal/80 font-poppins text-sm">
+                <p className="text-charcoal font-poppins text-sm">
                   Study flowers, landscapes, and natural forms for endless inspiration.
                 </p>
               </div>
               <div className="border-b border-white/20 pb-2">
                 <h4 className="font-bold text-charcoal font-poppins">Art History:</h4>
-                <p className="text-charcoal/80 font-poppins text-sm">
+                <p className="text-charcoal font-poppins text-sm">
                   Explore master artists who worked in pastels and oils.
                 </p>
               </div>
               <div>
                 <h4 className="font-bold text-charcoal font-poppins">Personal Vision:</h4>
-                <p className="text-charcoal/80 font-poppins text-sm">
+                <p className="text-charcoal font-poppins text-sm">
                   Draw from your experiences and emotions to create authentic art.
                 </p>
               </div>
@@ -230,16 +230,16 @@ export default function StudentResourcesPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="text-center">
               <div className="text-4xl mb-4">🎨</div>
-              <h3 className="text-xl font-bold mb-3 text-emerald-600 font-fredoka">Sarah's Journey</h3>
-              <p className="text-charcoal/80 font-poppins">
-                "Started as a complete beginner and now I'm painting portraits that amaze my family! Shilps helped me discover my artistic voice."
+              <h3 className="text-xl font-bold mb-3 text-emerald-600 font-fredoka">Sarah&apos;s Journey</h3>
+              <p className="text-charcoal font-poppins">
+                &quot;Started as a complete beginner and now I&apos;m painting portraits that amaze my family! Shilps helped me discover my artistic voice.&quot;
               </p>
             </div>
             <div className="text-center">
               <div className="text-4xl mb-4">🖼️</div>
-              <h3 className="text-xl font-bold mb-3 text-purple-600 font-fredoka">Mike's Transformation</h3>
-              <p className="text-charcoal/80 font-poppins">
-                "I thought I had no artistic talent, but with personalized guidance, I've created paintings I never thought possible!"
+              <h3 className="text-xl font-bold mb-3 text-purple-600 font-fredoka">Mike&apos;s Transformation</h3>
+              <p className="text-charcoal font-poppins">
+                &quot;I thought I had no artistic talent, but with personalized guidance, I&apos;ve created paintings I never thought possible!&quot;
               </p>
             </div>
           </div>

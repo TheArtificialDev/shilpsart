@@ -32,7 +32,7 @@ export default function Home() {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I%20found%20your%20website%20and%20I'm%20inspired%20to%20start%20my%20artistic%20journey.%20Can%20you%20help%20me%20begin%20discovering%20my%20creative%20potential?" className="group relative px-12 py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl sparkle-effect color-explosion">
+            <a href="https://wa.me/918884750750" className="group relative px-12 py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl sparkle-effect color-explosion">
               <span className="relative z-10">📱 Reach Out on WhatsApp</span>
               <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </a>
@@ -151,7 +151,7 @@ export default function Home() {
                         {item === 5 && "🎨 Personal Style Development"}
                         {item === 6 && "💡 Vision to Reality"}
                       </h4>
-                      <p className="text-gray-800 font-poppins text-sm font-medium">
+                      <p className="text-charcoal/90 font-poppins text-sm">
                         {item === 1 && "Personalized instruction tailored to each student's unique learning style and artistic goals."}
                         {item === 2 && "Hands-on demonstration of professional techniques that bring immediate improvement."}
                         {item === 3 && "Understanding color relationships and how to use them effectively in artwork."}
@@ -165,7 +165,7 @@ export default function Home() {
               </div>
               
               <div className="text-center mt-12">
-                <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I%20saw%20your%20teaching%20sessions%20on%20your%20website%20and%20I'm%20impressed%20by%20the%20results.%20I%20would%20love%20to%20join%20your%20live%20teaching%20sessions.%20Can%20we%20discuss%20the%20details?" className="group relative px-12 py-6 bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-600 hover:to-blue-600 text-white font-bold text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion">
+                <a href="https://wa.me/918884750750" className="group relative px-12 py-6 bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-600 hover:to-blue-600 text-white font-bold text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion">
                   <span className="relative z-10">🚀 Join Our Sessions!</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </a>
@@ -180,7 +180,6 @@ export default function Home() {
             <div className="bg-white/40 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-white/20">
               <div className="text-center mb-16">
                 <h2 className="text-4xl md:text-5xl font-bold mb-4 sparkle-effect font-fredoka">
-                  <span className="ml-2">🎨🖼️</span>
                   <span className="bg-gradient-to-r from-coral-500 via-yellow-500 to-purple-500 bg-clip-text text-transparent">
                     Original Works by Shilp
                   </span>
@@ -250,7 +249,7 @@ export default function Home() {
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                  <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I'm%20ready%20to%20start%20my%20artistic%20journey%20and%20transform%20my%20creative%20vision%20into%20reality.%20Can%20you%20guide%20me%20on%20how%20to%20begin?" className="group relative px-8 md:px-12 py-4 md:py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-lg md:text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion">
+                  <a href="https://wa.me/918884750750" className="group relative px-8 md:px-12 py-4 md:py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-lg md:text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion">
                     <span className="relative z-10">📱 Start Your Journey</span>
                     <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </a>

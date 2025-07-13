@@ -71,7 +71,7 @@ export default function AboutPage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-charcoal">Pastels Mastery</h4>
-                      <p className="text-charcoal/80">Soft, vibrant expressions that capture emotion</p>
+                      <p className="text-charcoal">Soft, vibrant expressions that capture emotion</p>
                     </div>
                   </div>
                   
@@ -81,7 +81,7 @@ export default function AboutPage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-charcoal">Oil Colors Expertise</h4>
-                      <p className="text-charcoal/80">Rich, textured works with depth and character</p>
+                      <p className="text-charcoal">Rich, textured works with depth and character</p>
                     </div>
                   </div>
                   
@@ -91,7 +91,7 @@ export default function AboutPage() {
                     </div>
                     <div>
                       <h4 className="font-bold text-charcoal">Multiple Styles</h4>
-                      <p className="text-charcoal/80">Self-taught approach that embraces artistic freedom</p>
+                      <p className="text-charcoal">Self-taught approach that embraces artistic freedom</p>
                     </div>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ export default function AboutPage() {
                 <div className="text-6xl mb-6">🎯</div>
                 <h3 className="text-2xl font-bold text-charcoal mb-4 font-fredoka">Expression Over Imitation</h3>
                 <p className="text-charcoal text-lg leading-relaxed font-poppins">
-                  "While others sell courses, I teach independence. Your unique vision matters more than copying techniques."
+                  &quot;While others sell courses, I teach independence. Your unique vision matters more than copying techniques.&quot;
                 </p>
               </div>
               
@@ -126,7 +126,7 @@ export default function AboutPage() {
                 <div className="text-6xl mb-6">🌟</div>
                 <h3 className="text-2xl font-bold text-charcoal mb-4 font-fredoka">Your Vision, Brought to Life</h3>
                 <p className="text-charcoal text-lg leading-relaxed font-poppins">
-                  "I don't create cookie-cutter artists. I help you discover and develop your authentic creative voice."
+                  &quot;I don&apos;t create cookie-cutter artists. I help you discover and develop your authentic creative voice.&quot;
                 </p>
               </div>
               
@@ -134,7 +134,7 @@ export default function AboutPage() {
                 <div className="text-6xl mb-6">🚀</div>
                 <h3 className="text-2xl font-bold text-charcoal mb-4 font-fredoka">Confident Independence</h3>
                 <p className="text-charcoal text-lg leading-relaxed font-poppins">
-                  "My goal is to make you a self-reliant artist who can create with confidence and joy."
+                  &quot;My goal is to make you a self-reliant artist who can create with confidence and joy.&quot;
                 </p>
               </div>
             </div>
@@ -151,10 +151,10 @@ export default function AboutPage() {
               </h2>
             
             <div className="bg-white/20 backdrop-blur-sm rounded-xl p-8 mb-12">
-              <p className="text-lg md:text-xl text-charcoal/95 leading-relaxed font-poppins italic">
-                "Art is not about perfection—it's about expression. Every student brings their own story, their own way of seeing the world. 
-                My role is to help you translate that unique perspective into beautiful, meaningful artwork. Whether you're picking up a brush 
-                for the first time or looking to refine your skills, I'm here to guide you with patience, understanding, and genuine care for your artistic growth."
+              <p className="text-lg md:text-xl text-gray-800 leading-relaxed font-poppins italic font-medium">
+                &quot;Art is not about perfection—it&apos;s about expression. Every student brings their own story, their own way of seeing the world. 
+                My role is to help you translate that unique perspective into beautiful, meaningful artwork. Whether you&apos;re picking up a brush 
+                for the first time or looking to refine your skills, I&apos;m here to guide you with patience, understanding, and genuine care for your artistic growth.&quot;
               </p>
             </div>
             
@@ -164,8 +164,8 @@ export default function AboutPage() {
                 <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </Link>
               
-              <a href="https://wa.me/918884750750" className="group relative px-6 md:px-10 py-4 md:py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-lg md:text-xl rounded-full transform hover:scale-105 transition-all duration-300 shadow-xl bounce-3d">
-                <span className="relative z-10">📱 Let's Start Your Journey</span>
+              <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I%20read%20about%20your%20artistic%20journey%20and%20teaching%20philosophy.%20I'm%20inspired%20and%20would%20love%20to%20connect%20with%20you%20to%20start%20my%20own%20creative%20journey." className="group relative px-6 md:px-10 py-4 md:py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-lg md:text-xl rounded-full transform hover:scale-105 transition-all duration-300 shadow-xl bounce-3d">
+                <span className="relative z-10">📱 Let&apos;s Start Your Journey</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </a>
             </div>
