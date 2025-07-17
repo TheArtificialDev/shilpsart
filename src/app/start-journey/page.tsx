@@ -6,7 +6,7 @@ import AnimatedBackground from "@/components/AnimatedBackground";
 export default function StartJourneyPage() {
   return (
     <div className="relative min-h-screen">
-      <AnimatedBackground />
+      <AnimatedBackground showEmojis={false} />
 
       {/* Scrollable Content Layer */}
       <div className="relative z-10 min-h-screen">

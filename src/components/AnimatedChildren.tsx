@@ -35,9 +35,6 @@ export default function AnimatedChildren() {
             }}
           />
         </div>
-        <div className="absolute -top-4 -left-4 text-2xl text-yellow-300 animate-sparkle-1">✨</div>
-        <div className="absolute -top-3 -right-4 text-xl text-pink-300 animate-sparkle-2">🎨</div>
-        <div className="absolute -bottom-4 -left-3 text-xl text-purple-300 animate-sparkle-3">💖</div>
       </div>
 
       {/* Artist Animation - Right Side Center */}
@@ -55,9 +52,6 @@ export default function AnimatedChildren() {
             }}
           />
         </div>
-        <div className="absolute -top-4 -right-4 text-2xl text-red-400 animate-sparkle-1">🎨</div>
-        <div className="absolute -top-3 -left-4 text-xl text-blue-400 animate-sparkle-2">🖌️</div>
-        <div className="absolute -bottom-4 -right-3 text-xl text-green-400 animate-sparkle-3">💚</div>
       </div>
 
       {/* Painter Painting Picture - Top Left */}
@@ -75,8 +69,6 @@ export default function AnimatedChildren() {
             }}
           />
         </div>
-        <div className="absolute -top-2 -right-2 text-lg text-orange-400 animate-sparkle-2">🖼️</div>
-        <div className="absolute -bottom-2 -left-2 text-lg text-cyan-400 animate-sparkle-3">🌟</div>
       </div>
 
       {/* Painting Alone on Balcony - Top Right */}
@@ -94,8 +86,6 @@ export default function AnimatedChildren() {
             }}
           />
         </div>
-        <div className="absolute -top-2 -left-2 text-lg text-purple-400 animate-sparkle-1">🌈</div>
-        <div className="absolute -bottom-2 -right-2 text-lg text-pink-400 animate-sparkle-3">✨</div>
       </div>
 
       {/* Paint Brush Animation - Bottom Center */}
@@ -118,8 +108,6 @@ export default function AnimatedChildren() {
             </div>
           )}
         </div>
-        <div className="absolute -top-3 -left-3 text-xl text-yellow-400 animate-sparkle-1">🎭</div>
-        <div className="absolute -top-3 -right-3 text-xl text-green-400 animate-sparkle-2">🎨</div>
       </div>
 
       {/* Tablet/Medium Screen Layout */}
@@ -137,7 +125,6 @@ export default function AnimatedChildren() {
             }}
           />
         </div>
-        <div className="absolute -top-2 -right-2 text-lg text-pink-300 animate-sparkle-2">💖</div>
       </div>
 
       <div className="hidden sm:block lg:hidden absolute top-12 right-6 z-20 animate-float-gentle-delayed">
@@ -154,7 +141,6 @@ export default function AnimatedChildren() {
             }}
           />
         </div>
-        <div className="absolute -top-2 -left-2 text-lg text-blue-300 animate-sparkle-1">🎨</div>
       </div>
 
       <div className="hidden sm:block lg:hidden absolute bottom-16 left-1/2 transform -translate-x-1/2 z-20 animate-gentle-sway">
