@@ -27,6 +27,26 @@ export default function StartJourneyPage() {
             <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-4xl mx-auto leading-relaxed font-poppins">
               🌟 Schedule your complimentary consultation and discover your personalized learning path
             </p>
+            
+            <div className="bg-white/20 backdrop-blur-sm rounded-xl p-6 max-w-5xl mx-auto mb-8">
+              <div className="grid md:grid-cols-3 gap-4 text-center">
+                <div>
+                  <p className="text-emerald-300 font-bold text-lg font-poppins">👶 Ages 4-16 Years</p>
+                  <p className="text-white/80 text-sm font-poppins">Perfect developmental stage</p>
+                </div>
+                <div>
+                  <p className="text-blue-300 font-bold text-lg font-poppins">💻 Online Classes</p>
+                  <p className="text-white/80 text-sm font-poppins">Tue/Thu 5:00-6:00 PM</p>
+                </div>
+                <div>
+                  <p className="text-purple-300 font-bold text-lg font-poppins">🏫 Offline Classes</p>
+                  <p className="text-white/80 text-sm font-poppins">Mon-Sat 4:00-6:00 PM</p>
+                </div>
+              </div>
+              <p className="text-center text-white/70 text-sm font-poppins mt-4">
+                📍 Offline classes at Kidee Kasavanahalli Center
+              </p>
+            </div>
           </div>
         </section>
 

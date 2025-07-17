@@ -107,6 +107,17 @@ export default function BlogPage() {
           <p className="text-xl md:text-2xl text-charcoal max-w-3xl mx-auto font-poppins">
             Inspiration, tutorials, and insights to fuel your artistic journey! ✨
           </p>
+          
+          <div className="bg-white/30 backdrop-blur-sm rounded-xl p-6 max-w-4xl mx-auto mt-8">
+            <p className="text-lg text-charcoal font-poppins text-center mb-2">
+              <span className="font-bold text-emerald-600">Ages 4-16</span> • 
+              <span className="font-bold text-blue-600 mx-2">Online: Tue/Thu 5-6 PM</span> • 
+              <span className="font-bold text-purple-600">Offline: Mon-Sat 4-6 PM</span>
+            </p>
+            <p className="text-sm text-charcoal/80 font-poppins text-center">
+              📍 Offline classes at Kidee Kasavanahalli Center
+            </p>
+          </div>
         </div>
 
         {/* Category Filters */}

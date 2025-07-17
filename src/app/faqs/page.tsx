@@ -120,16 +120,34 @@ export default function FAQsPage() {
         {/* Content */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Hero Section */}
-        <div className="text-center mb-16">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 font-fredoka">
-            <span className="bg-gradient-to-r from-yellow-300 via-pink-300 to-blue-300 bg-clip-text text-transparent">
-              ❓ Frequently Asked Questions
-            </span>
-          </h1>
-          <p className="text-xl md:text-2xl text-charcoal max-w-3xl mx-auto font-poppins">
-            Get answers to common questions about starting your artistic journey with personalized instruction! ✨
-          </p>
-        </div>
+                {/* Hero Section */}
+        <section className="relative overflow-hidden py-20 lg:py-32">
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-8 leading-tight font-fredoka">
+              <span className="block bg-gradient-to-r from-yellow-300 via-pink-300 to-blue-300 bg-clip-text text-transparent">
+                Questions & Answers
+              </span>
+              <span className="block mt-2 text-3xl md:text-4xl lg:text-5xl color-explosion">
+                Everything You Need to Know
+              </span>
+            </h1>
+            
+            <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-4xl mx-auto leading-relaxed font-poppins">
+              ❓ Find answers to common questions about our art classes
+            </p>
+            
+            <div className="bg-white/20 backdrop-blur-sm rounded-xl p-6 max-w-4xl mx-auto">
+              <p className="text-lg text-white/90 font-poppins text-center mb-2">
+                <span className="font-bold text-emerald-300">Ages 4-16</span> • 
+                <span className="font-bold text-blue-300 mx-2">Online: Tue/Thu 5-6 PM</span> • 
+                <span className="font-bold text-purple-300">Offline: Mon-Sat 4-6 PM</span>
+              </p>
+              <p className="text-sm text-white/80 font-poppins text-center">
+                📍 Offline classes at Kidee Kasavanahalli Center
+              </p>
+            </div>
+          </div>
+        </section>
 
         {/* Category Tabs */}
         <div className="flex flex-wrap justify-center gap-4 mb-12">

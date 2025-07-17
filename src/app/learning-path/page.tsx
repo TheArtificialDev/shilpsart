@@ -26,6 +26,8 @@ export default function LearningPathPage() {
             
             <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-4xl mx-auto leading-relaxed font-poppins">
               🎯 One-on-one instruction tailored to your level and artistic goals
+              <br />
+              <span className="text-yellow-300 font-bold">👶 Ages 4-16 | 💻 Online: Tue/Thu 5-6 PM | 🏫 Offline: Mon-Sat 4-6 PM at Kidee Kasavanahalli</span>
             </p>
             
             <div className="flex justify-center">

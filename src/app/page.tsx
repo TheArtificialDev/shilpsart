@@ -3,6 +3,7 @@ import Image from "next/image";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import AnimatedBackground from "@/components/AnimatedBackground";
+import AnimatedChildren from "@/components/AnimatedChildren";
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
         {/* Hero Section - Transparent to show background */}
         <section className="relative overflow-hidden py-20 lg:py-32">
         
+        {/* Animated Children Characters */}
+        <AnimatedChildren />
+        
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-8 leading-tight font-fredoka">
             <span className="block bg-gradient-to-r from-yellow-300 via-pink-300 to-blue-300 bg-clip-text text-transparent">
@@ -27,8 +31,9 @@ export default function Home() {
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-4xl mx-auto leading-relaxed font-poppins">
-            🎨 Art classes that honor your unique voice and help you express your creativity with confidence! 
-            Join our magical artistic journey where every stroke tells your story.
+            🎨 Art classes for kids
+            <br /><br />
+            <span className="text-yellow-300 font-bold">👶 Ages 4-16 Years | 💻 Online: Tue & Thu 5-6 PM | 🏫 Offline: Mon-Sat 4-6 PM at Kidee Kasavanahalli</span>
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -66,6 +71,84 @@ export default function Home() {
                   <h3 className="text-3xl font-bold mb-2 font-fredoka">Specialty</h3>
                   <p className="text-charcoal/95 font-medium font-poppins">🌈 All Art Styles</p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Class Information Section */}
+        <section className="py-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="bg-white/40 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-white/20">
+              <div className="text-center mb-16">
+                <h2 className="text-4xl md:text-5xl font-bold mb-6 sparkle-effect font-fredoka">
+                  <span className="bg-gradient-to-r from-emerald-500 to-blue-500 bg-clip-text text-transparent">
+                    📅 Class Schedules & Information
+                  </span>
+                </h2>
+                <p className="text-xl text-gray-800 max-w-3xl mx-auto font-poppins font-medium">
+                  Choose the perfect learning format for your young artist! 🎨
+                </p>
+              </div>
+              
+              <div className="grid md:grid-cols-3 gap-8">
+                {/* Age Group */}
+                <div className="text-center bg-white/50 backdrop-blur-sm rounded-xl p-8 transform hover:scale-105 transition-all duration-300 sparkle-effect">
+                  <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-coral-400 to-pink-500 rounded-full flex items-center justify-center text-4xl">
+                    👶
+                  </div>
+                  <h3 className="text-2xl font-bold text-charcoal mb-4 font-fredoka">Age Group</h3>
+                  <p className="text-charcoal text-lg font-poppins mb-4">
+                    <span className="text-2xl font-bold text-coral-500">4-16 Years</span>
+                  </p>
+                  <p className="text-charcoal text-sm font-poppins">
+                    Perfect developmental age for creative expression and artistic skill building
+                  </p>
+                </div>
+
+                {/* Online Classes */}
+                <div className="text-center bg-white/50 backdrop-blur-sm rounded-xl p-8 transform hover:scale-105 transition-all duration-300 sparkle-effect">
+                  <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-emerald-400 to-blue-500 rounded-full flex items-center justify-center text-4xl">
+                    💻
+                  </div>
+                  <h3 className="text-2xl font-bold text-charcoal mb-4 font-fredoka">Online Classes</h3>
+                  <p className="text-charcoal text-lg font-poppins mb-2">
+                    <span className="font-bold text-emerald-600">Tuesday & Thursday</span>
+                  </p>
+                  <p className="text-charcoal text-lg font-poppins mb-4">
+                    <span className="font-bold text-emerald-600">5:00 PM - 6:00 PM</span>
+                  </p>
+                  <p className="text-charcoal text-sm font-poppins">
+                    Interactive online sessions from the comfort of your home
+                  </p>
+                </div>
+
+                {/* Offline Classes */}
+                <div className="text-center bg-white/50 backdrop-blur-sm rounded-xl p-8 transform hover:scale-105 transition-all duration-300 sparkle-effect">
+                  <div className="w-20 h-20 mx-auto mb-6 bg-gradient-to-br from-purple-400 to-yellow-500 rounded-full flex items-center justify-center text-4xl">
+                    🏫
+                  </div>
+                  <h3 className="text-2xl font-bold text-charcoal mb-4 font-fredoka">Offline Classes</h3>
+                  <p className="text-charcoal text-lg font-poppins mb-2">
+                    <span className="font-bold text-purple-600">Monday - Saturday</span>
+                  </p>
+                  <p className="text-charcoal text-lg font-poppins mb-2">
+                    <span className="font-bold text-purple-600">4:00 PM - 6:00 PM</span>
+                  </p>
+                  <p className="text-charcoal text-sm font-poppins mb-2">
+                    <span className="font-bold">📍 Kidee Kasavanahalli Center</span>
+                  </p>
+                  <p className="text-charcoal text-xs font-poppins">
+                    Hands-on experience with professional art supplies
+                  </p>
+                </div>
+              </div>
+              
+              <div className="text-center mt-12">
+                <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I'm%20interested%20in%20learning%20more%20about%20your%20class%20schedules%20and%20enrollment%20for%20my%20child.%20Can%20you%20help%20me%20choose%20between%20online%20and%20offline%20classes?" className="group relative px-12 py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion">
+                  <span className="relative z-10">📱 Book Your Child&apos;s Spot!</span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </a>
               </div>
             </div>
           </div>

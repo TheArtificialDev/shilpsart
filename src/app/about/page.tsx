@@ -142,6 +142,54 @@ export default function AboutPage() {
           </div>
         </section>
 
+        {/* Class Information Section */}
+        <section className="py-20">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="bg-white/40 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-white/20">
+              <div className="text-center mb-12">
+                <h2 className="text-4xl md:text-5xl font-bold mb-6 sparkle-effect font-fredoka">
+                  <span className="bg-gradient-to-r from-emerald-500 to-blue-500 bg-clip-text text-transparent">
+                    📅 Ready to Begin Your Journey?
+                  </span>
+                </h2>
+                <p className="text-xl text-charcoal font-poppins">Join our art community and discover your creative potential</p>
+              </div>
+              
+              <div className="grid md:grid-cols-3 gap-8">
+                <div className="text-center bg-white/50 backdrop-blur-sm rounded-xl p-8 transform hover:scale-105 transition-all duration-300 sparkle-effect">
+                  <div className="text-5xl mb-6">👶</div>
+                  <h3 className="text-2xl font-bold text-coral-600 mb-4 font-fredoka">Perfect Age Group</h3>
+                  <p className="text-charcoal font-poppins font-bold text-xl mb-2">4-16 Years</p>
+                  <p className="text-charcoal font-poppins text-lg leading-relaxed">
+                    The ideal age range for developing artistic skills, creativity, and confidence through guided instruction
+                  </p>
+                </div>
+                
+                <div className="text-center bg-white/50 backdrop-blur-sm rounded-xl p-8 transform hover:scale-105 transition-all duration-300 sparkle-effect">
+                  <div className="text-5xl mb-6">💻</div>
+                  <h3 className="text-2xl font-bold text-emerald-600 mb-4 font-fredoka">Online Classes</h3>
+                  <p className="text-charcoal font-poppins font-bold text-lg">Tuesday & Thursday</p>
+                  <p className="text-emerald-600 font-poppins font-bold text-xl mb-2">5:00 PM - 6:00 PM</p>
+                  <p className="text-charcoal font-poppins text-lg leading-relaxed">
+                    Interactive virtual sessions with personalized guidance from the comfort of your home
+                  </p>
+                </div>
+                
+                <div className="text-center bg-white/50 backdrop-blur-sm rounded-xl p-8 transform hover:scale-105 transition-all duration-300 sparkle-effect">
+                  <div className="text-5xl mb-6">🏫</div>
+                  <h3 className="text-2xl font-bold text-purple-600 mb-4 font-fredoka">Offline Classes</h3>
+                  <p className="text-charcoal font-poppins font-bold text-lg">Monday - Saturday</p>
+                  <p className="text-purple-600 font-poppins font-bold text-xl mb-2">4:00 PM - 6:00 PM</p>
+                  <p className="text-charcoal font-poppins font-bold">📍 Kidee Kasavanahalli Center</p>
+                  <p className="text-charcoal font-poppins text-lg leading-relaxed mt-2">
+                    Hands-on learning with professional art supplies and in-person guidance
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Personal Connection Section */}
         <section className="py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -22,6 +22,8 @@ export default function ContactPage() {
           </h1>
           <p className="text-xl md:text-2xl text-charcoal max-w-3xl mx-auto font-poppins">
             Ready to start your artistic journey? I&apos;d love to hear about your creative goals and help you find the perfect path forward! ✨
+            <br /><br />
+            <span className="text-purple-600 font-bold">👶 Ages 4-16 Years | 💻 Online: Tue & Thu 5-6 PM | 🏫 Offline: Mon-Sat 4-6 PM at Kidee Kasavanahalli</span>
           </p>
         </div>
 
@@ -89,6 +91,36 @@ export default function ContactPage() {
               <p className="text-charcoal font-poppins">
                 Just a friendly chat about your artistic dreams - no sales pressure, just genuine guidance.
               </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Class Schedule Information */}
+        <div className="bg-white/40 backdrop-blur-sm rounded-xl p-8 mb-16 shadow-lg border border-white/20">
+          <h2 className="text-3xl font-bold mb-8 text-center bg-gradient-to-r from-emerald-500 to-blue-500 bg-clip-text text-transparent font-fredoka">
+            📅 Class Schedules & Details
+          </h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="text-center bg-white/50 backdrop-blur-sm rounded-xl p-6">
+              <div className="text-4xl mb-4">👶</div>
+              <h3 className="text-xl font-bold mb-3 text-coral-600 font-fredoka">Age Group</h3>
+              <p className="text-charcoal font-poppins font-bold text-lg">4-16 Years</p>
+              <p className="text-charcoal font-poppins text-sm mt-2">Perfect age for developing artistic skills and creative confidence</p>
+            </div>
+            <div className="text-center bg-white/50 backdrop-blur-sm rounded-xl p-6">
+              <div className="text-4xl mb-4">💻</div>
+              <h3 className="text-xl font-bold mb-3 text-emerald-600 font-fredoka">Online Classes</h3>
+              <p className="text-charcoal font-poppins font-bold">Tuesday & Thursday</p>
+              <p className="text-charcoal font-poppins font-bold text-emerald-600">5:00 PM - 6:00 PM</p>
+              <p className="text-charcoal font-poppins text-sm mt-2">Interactive sessions from home</p>
+            </div>
+            <div className="text-center bg-white/50 backdrop-blur-sm rounded-xl p-6">
+              <div className="text-4xl mb-4">🏫</div>
+              <h3 className="text-xl font-bold mb-3 text-purple-600 font-fredoka">Offline Classes</h3>
+              <p className="text-charcoal font-poppins font-bold">Monday - Saturday</p>
+              <p className="text-charcoal font-poppins font-bold text-purple-600">4:00 PM - 6:00 PM</p>
+              <p className="text-charcoal font-poppins text-sm">📍 Kidee Kasavanahalli Center</p>
+              <p className="text-charcoal font-poppins text-xs mt-1">Hands-on with professional supplies</p>
             </div>
           </div>
         </div>
