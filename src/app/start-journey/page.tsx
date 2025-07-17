@@ -40,7 +40,7 @@ export default function StartJourneyPage() {
                 </div>
                 <div>
                   <p className="text-purple-300 font-bold text-lg font-poppins">🏫 Offline Classes</p>
-                  <p className="text-white/80 text-sm font-poppins">Mon-Sat 4:00-6:00 PM</p>
+                  <p className="text-white/80 text-sm font-poppins">Mon-Fri 4:00-5:00 PM</p>
                 </div>
               </div>
               <p className="text-center text-white/70 text-sm font-poppins mt-4">

@@ -33,7 +33,7 @@ export default function Home() {
           <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-4xl mx-auto leading-relaxed font-poppins">
             🎨 Art classes for kids
             <br /><br />
-            <span className="text-yellow-300 font-bold">👶 Ages 4-16 Years | 💻 Online: Tue & Thu 5-6 PM | 🏫 Offline: Mon-Sat 4-6 PM at Kidee Kasavanahalli</span>
+            <span className="text-yellow-300 font-bold">👶 Ages 4-16 Years | 💻 Online: Tue & Thu 5-6 PM | 🏫 Offline: Mon-Fri 4-5 PM at Kidee Kasavanahalli</span>
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">

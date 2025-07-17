@@ -23,7 +23,7 @@ export default function ContactPage() {
           <p className="text-xl md:text-2xl text-charcoal max-w-3xl mx-auto font-poppins">
             Ready to start your artistic journey? I&apos;d love to hear about your creative goals and help you find the perfect path forward! ✨
             <br /><br />
-            <span className="text-purple-600 font-bold">👶 Ages 4-16 Years | 💻 Online: Tue & Thu 5-6 PM | 🏫 Offline: Mon-Sat 4-6 PM at Kidee Kasavanahalli</span>
+            <span className="text-purple-600 font-bold">👶 Ages 4-16 Years | 💻 Online: Tue & Thu 5-6 PM | 🏫 Offline: Mon-Fri 4-5 PM at Kidee Kasavanahalli</span>
           </p>
         </div>
 

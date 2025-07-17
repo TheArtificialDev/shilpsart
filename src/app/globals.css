@@ -249,6 +249,42 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Animation background removal utilities */
+.lottie-transparent {
+  background: transparent !important;
+}
+
+.lottie-transparent canvas {
+  background: transparent !important;
+}
+
+.lottie-transparent svg {
+  background: transparent !important;
+}
+
+/* Lottie blend modes for better integration */
+.lottie-multiply {
+  mix-blend-mode: multiply;
+}
+
+.lottie-screen {
+  mix-blend-mode: screen;
+}
+
+.lottie-overlay {
+  mix-blend-mode: overlay;
+}
+
+/* Remove white backgrounds from containers */
+.animation-container {
+  background: transparent !important;
+  backdrop-filter: none !important;
+}
+
+.animation-container * {
+  background-color: transparent !important;
+}
+
 /* Individual random animation classes for art emojis */
 .sparkle-1 { 
   animation: sparkle 2.3s ease-in-out infinite 0.2s; 
@@ -312,7 +348,21 @@ html {
   50% { transform: translateY(-10px) rotate(-1deg); }
 }
 
+@keyframes float-gentle-slow {
+  0%, 100% { transform: translateY(0px) rotate(0deg) scale(1); }
+  50% { transform: translateY(-12px) rotate(2deg) scale(1.02); }
+}
 
+@keyframes float-gentle-bounce {
+  0%, 100% { transform: translateY(0px) rotate(0deg) scale(1); }
+  25% { transform: translateY(-6px) rotate(-0.5deg) scale(0.98); }
+  75% { transform: translateY(-15px) rotate(1.5deg) scale(1.05); }
+}
+
+@keyframes gentle-sway {
+  0%, 100% { transform: translateX(0px) rotate(0deg); }
+  50% { transform: translateX(8px) rotate(2deg); }
+}
 
 @keyframes sparkle-children-1 {
   0%, 100% { opacity: 0.3; transform: scale(1) rotate(0deg); }
@@ -337,7 +387,17 @@ html {
   animation: float-gentle-delayed 3.5s ease-in-out infinite 0.5s;
 }
 
+.animate-float-gentle-slow {
+  animation: float-gentle-slow 4s ease-in-out infinite 1s;
+}
 
+.animate-float-gentle-bounce {
+  animation: float-gentle-bounce 3.8s ease-in-out infinite 1.5s;
+}
+
+.animate-gentle-sway {
+  animation: gentle-sway 4.5s ease-in-out infinite 0.8s;
+}
 
 .animate-sparkle-1 {
   animation: sparkle-children-1 2s ease-in-out infinite;

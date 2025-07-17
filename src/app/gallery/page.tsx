@@ -33,7 +33,7 @@ export default function GalleryPage() {
               <p className="text-lg text-white/90 font-poppins text-center">
                 <span className="font-bold text-emerald-300">Ages 4-16</span> • 
                 <span className="font-bold text-blue-300 mx-2">Online: Tue/Thu 5-6 PM</span> • 
-                <span className="font-bold text-purple-300">Offline: Mon-Sat 4-6 PM</span>
+                <span className="font-bold text-purple-300">Offline: Mon-Fri 4-5 PM</span>
               </p>
               <p className="text-sm text-white/80 font-poppins text-center mt-2">
                 📍 Kidee Kasavanahalli Center for offline classes
