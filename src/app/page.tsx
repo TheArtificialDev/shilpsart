@@ -8,7 +8,7 @@ import AnimatedChildren from "@/components/AnimatedChildren";
 export default function Home() {
   return (
     <div className="relative min-h-screen">
-      <AnimatedBackground />
+      <AnimatedBackground hideEmojisInHero={true} />
 
       {/* Scrollable Content Layer */}
       <div className="relative z-10 min-h-screen">

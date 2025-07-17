@@ -285,6 +285,20 @@ html {
   background-color: transparent !important;
 }
 
+/* Hero section emoji hiding utility */
+.emoji-hide-in-hero > div {
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Hide emojis that appear in hero section area */
+.emoji-hide-in-hero > div[style*="top: 8%"],
+.emoji-hide-in-hero > div[style*="top: 12%"],
+.emoji-hide-in-hero > div[style*="top: 35%"],
+.emoji-hide-in-hero > div[style*="top: 45%"] {
+  opacity: 0;
+  pointer-events: none;
+}
+
 /* Individual random animation classes for art emojis */
 .sparkle-1 { 
   animation: sparkle 2.3s ease-in-out infinite 0.2s; 
