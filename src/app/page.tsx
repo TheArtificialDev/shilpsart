@@ -145,8 +145,8 @@ export default function Home() {
               </div>
               
               <div className="text-center mt-12">
-                <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I'm%20interested%20in%20learning%20more%20about%20your%20class%20schedules%20and%20enrollment%20for%20my%20child.%20Can%20you%20help%20me%20choose%20between%20online%20and%20offline%20classes?" className="group relative px-12 py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion">
-                  <span className="relative z-10">📱 Book Your Child&apos;s Spot!</span>
+                <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I'm%20interested%20in%20learning%20more%20about%20your%20class%20schedules%20and%20enrollment%20for%20my%20child.%20Can%20you%20help%20me%20choose%20between%20online%20and%20offline%20classes?" className="inline-block group relative px-12 py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl sparkle-effect color-explosion">
+                  <span className="relative z-10">📱 Book Your Child's Spot!</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </a>
               </div>
@@ -248,7 +248,7 @@ export default function Home() {
               </div>
               
               <div className="text-center mt-12">
-                <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I%20saw%20your%20teaching%20sessions%20on%20your%20website%20and%20I'm%20impressed%20by%20the%20results.%20I%20would%20love%20to%20join%20your%20live%20teaching%20sessions.%20Can%20we%20discuss%20the%20details?" className="group relative px-12 py-6 bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-600 hover:to-blue-600 text-white font-bold text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion">
+                <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I%20saw%20your%20teaching%20sessions%20on%20your%20website%20and%20I'm%20impressed%20by%20the%20results.%20I%20would%20love%20to%20join%20your%20live%20teaching%20sessions.%20Can%20we%20discuss%20the%20details?" className="inline-block group relative px-12 py-6 bg-gradient-to-r from-emerald-500 to-blue-500 hover:from-emerald-600 hover:to-blue-600 text-white font-bold text-xl rounded-full transform hover:scale-105 transition-all duration-300 shadow-xl bounce-3d">
                   <span className="relative z-10">🚀 Join Our Sessions!</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </a>
@@ -291,11 +291,11 @@ export default function Home() {
                     </div>
                     <div className="p-4 bg-white">
                       <p className="text-charcoal font-medium font-caveat text-center">
-                        {item === 1 && "🌺 Floral Mastery"}
-                        {item === 2 && "🌅 Landscape Poetry"}
-                        {item === 3 && "🎭 Portrait Elegance"}
-                        {item === 4 && "🌈 Abstract Expression"}
-                        {item === 5 && "🏛️ Architectural Beauty"}
+                        {item === 1 && "🌶️ Spicy Bowl"}
+                        {item === 2 && "🎭 Portrait Elegance"}
+                        {item === 3 && "🏛️ Architectural Beauty"}
+                        {item === 4 && "🌺 Floral Fantasy"}
+                        {item === 5 && "🍞 Fine Bread"}
                         {item === 6 && "🍃 Nature's Symphony"}
                         {item === 7 && "✨ Dreamy Impressions"}
                         {item === 8 && "🎨 Creative Vision"}
@@ -306,7 +306,7 @@ export default function Home() {
               </div>
               
               <div className="text-center mt-12">
-                <Link href="/gallery" className="group relative px-12 py-6 bg-gradient-to-r from-coral-500 to-pink-500 hover:from-coral-600 hover:to-pink-600 text-white font-bold text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl bounce-3d">
+                <Link href="/gallery" className="inline-block group relative px-12 py-6 bg-gradient-to-r from-coral-500 to-pink-500 hover:from-coral-600 hover:to-pink-600 text-white font-bold text-xl rounded-full transform hover:scale-105 transition-all duration-300 shadow-xl bounce-3d">
                   <span className="relative z-10">🖼️ View Full Gallery</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-orange-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </Link>
@@ -325,7 +325,7 @@ export default function Home() {
               
               <div className="relative text-center">
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-charcoal mb-8 sparkle-effect leading-tight font-fredoka">
-                  🌈 Ready to Create Magic? 🌈
+                  🌈 Ready to Create Magic? <span className="inline-block -scale-x-100">🌈</span>
                 </h2>
                 
                 <p className="text-lg md:text-xl text-charcoal/90 mb-12 leading-relaxed font-poppins">

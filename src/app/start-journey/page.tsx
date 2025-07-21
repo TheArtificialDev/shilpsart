@@ -162,8 +162,10 @@ export default function StartJourneyPage() {
             </div>
             
               <div className="text-center">
-                <button className="group relative px-12 py-6 bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-bold text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion">
-                  <span className="relative z-10">🎯 Get My Learning Plan</span>
+                <button className="group relative inline-block px-8 md:px-12 py-4 md:py-6 bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 text-white font-bold text-lg md:text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion min-h-[60px] md:min-h-[80px]">
+                  <span className="relative z-10 flex items-center justify-center h-full leading-tight">
+                    🎯 Get My<br className="sm:hidden" /><span className="sm:ml-1">Learning Plan</span>
+                  </span>
                   <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-pink-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </button>
               </div>
@@ -378,8 +380,10 @@ export default function StartJourneyPage() {
                 </p>
                 
                 <div className="flex flex-col sm:flex-row gap-6 justify-center">
-                  <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I'm%20excited%20to%20start%20my%20artistic%20journey%20and%20would%20like%20to%20schedule%20a%20consultation%20to%20discuss%20my%20goals%20and%20find%20the%20perfect%20program%20for%20me.%20When%20can%20we%20connect?" className="group relative px-8 md:px-12 py-4 md:py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-lg md:text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion">
-                    <span className="relative z-10">📱 Schedule Your Consultation</span>
+                  <a href="https://wa.me/918884750750?text=Hello%20Shilp's%20Art!%20I'm%20excited%20to%20start%20my%20artistic%20journey%20and%20would%20like%20to%20schedule%20a%20consultation%20to%20discuss%20my%20goals%20and%20find%20the%20perfect%20program%20for%20me.%20When%20can%20we%20connect?" className="group relative inline-block px-6 md:px-10 py-4 md:py-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold text-lg md:text-xl rounded-full transform hover:scale-110 transition-all duration-300 shadow-2xl color-explosion min-h-[60px] md:min-h-[80px]">
+                    <span className="relative z-10 flex items-center justify-center h-full leading-tight">
+                      📱 Schedule Your<br className="sm:hidden" /><span className="sm:ml-1">Consultation</span>
+                    </span>
                     <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   </a>
                   
